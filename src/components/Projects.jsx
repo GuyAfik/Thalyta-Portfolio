@@ -18,7 +18,7 @@ function Projects() {
       icon: 'fa-store'
     },
     {
-      title: 'AdventureWorks Database Analysis',
+      title: 'HR Analytics with Power BI',
       description: 'Business intelligence project analyzing the AdventureWorks database using Power BI. Created interactive dashboards to visualize sales performance, customer behavior, and product trends for data-driven decision making.',
       technologies: ['Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
       link: 'https://github.com/Thalyta99/HR-Business-Analysis',

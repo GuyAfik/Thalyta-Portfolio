@@ -96,7 +96,7 @@ function CV() {
           </div>
           
           <div className="cv-download">
-            <a href="/assets/Thalyta_Marques_CV.pdf" download className="btn btn-download">
+            <a href="/Thalyta-Portfolio/assets/Thalyta_Marques_CV.pdf" download className="btn btn-download">
               <i className="fas fa-download"></i> Download Full CV (PDF)
             </a>
             <p className="cv-download-note">
