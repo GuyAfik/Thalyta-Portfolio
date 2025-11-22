@@ -1,0 +1,76 @@
+{
+  "personalInfo": {
+    "name": "Thalyta Marques Dos Santos",
+    "title": "Data Analyst",
+    "phone": "058-6665191",
+    "email": "thalytasa@gmail.com"
+  },
+  "profile": "Proactive and detail-oriented Data Analyst, having recently completed the intensive Data Analyst program at John Bryce. Proficient in SQL, Python (Pandas), Excel, and Power BI for data extraction, transformation, and visualization. Seeking to leverage my analytical skills to turn complex data into actionable insights and contribute to a data-driven team.",
+  "projects": [
+    "Data analysis on Amazon forest deforestation with Python and Pandas",
+    "Data analysis for AdventureWorks DB (Power BI)",
+    "Data analysis with Excel for Super Store (Excel - download locally)"
+  ],
+  "education": [
+    {
+      "institution": "John Bryce Data Analyst Course",
+      "period": "March 2024 – August 2024",
+      "achievement": "Graduated with Excellence (Final GPA: 100)",
+      "highlights": [
+        {
+          "title": "Data Analysis & Querying",
+          "description": "Advanced SQL for complex queries, data extraction, and manipulation"
+        },
+        {
+          "title": "Python for Data Analytics",
+          "description": "Proficient in using Pandas for data cleaning, transformation, and analysis"
+        },
+        {
+          "title": "Business Intelligence & Visualization",
+          "description": "Designed and built interactive dashboards and reports using Power BI"
+        },
+        {
+          "title": "Advanced Excel",
+          "description": "Utilized Pivot Tables, Power Query, and advanced formulas for in-depth analysis"
+        }
+      ]
+    }
+  ],
+  "technicalSkills": [
+    {
+      "category": "BI & Visualization",
+      "skills": "Power BI, MS Excel"
+    },
+    {
+      "category": "Databases",
+      "skills": "SQL"
+    },
+    {
+      "category": "Programming Languages",
+      "skills": "Python (Pandas)"
+    },
+    {
+      "category": "Version Control",
+      "skills": "Git, GitHub"
+    },
+    {
+      "category": "Operating Systems",
+      "skills": "Windows, Linux, macOS"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Portuguese",
+      "level": "Native language"
+    },
+    {
+      "name": "Hebrew",
+      "level": "Full proficiency"
+    },
+    {
+      "name": "English",
+      "level": "Full proficiency"
+    }
+  ],
+  "cvPdfPath": "/Thalyta-Portfolio/assets/Thalyta_Marques_CV.pdf"
+}
