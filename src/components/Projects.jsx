@@ -28,7 +28,7 @@ function Projects() {
       title: 'Mind And Health Trends',
       description: 'Power BI dashboard analyzing mental health trends and patterns. Visualized key metrics and insights to understand health-related behaviors and their impact on mental well-being through interactive data storytelling.',
       technologies: ['Power BI', 'Data Visualization', 'Health Analytics', 'Dashboard Design'],
-      link: 'https://github.com/Thalyta99/Mind-And-Health-Trends',
+      link: 'https://drive.google.com/file/d/1ggsUBvCEE_Ri8ZY6mirjbsBTH5qxE34w/view',
       icon: 'fa-brain'
     }
   ]
