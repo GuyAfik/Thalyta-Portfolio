@@ -8,10 +8,8 @@ function About() {
         <h2 className="section-title">About Me</h2>
         <div className="about-content">
           <p>
-            I am a passionate Data Analyst with expertise in transforming complex datasets 
-            into meaningful insights that drive business decisions. With a strong foundation 
-            in statistical analysis, data visualization, and business intelligence, I help 
-            organizations unlock the value hidden in their data.
+            Hi! I’m an enthusiastic and detail-oriented aspiring data analyst with a strong foundation in Excel, SQL, Python, and Power BI. I recently completed a comprehensive Data Analytics course where I learned how to clean, analyze, and visualize data to support smart decision-making.
+            I’ve worked on real-world projects that allowed me to explore customer behavior, business trends, and operational performance. I enjoy finding patterns, solving problems, and transforming raw data into clear and impactful dashboards and reports.
           </p>
           <p>
             My approach combines technical proficiency with strategic thinking, ensuring 
