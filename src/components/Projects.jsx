@@ -6,22 +6,22 @@ function Projects() {
     {
       title: 'Amazon Forest Deforestation Analysis',
       description: 'Comprehensive data analysis project examining deforestation patterns in the Amazon rainforest using Python and Pandas. Analyzed historical data to identify trends, patterns, and key factors contributing to deforestation.',
-      technologies: ['Python', 'Pandas', 'Data Visualization', 'Statistical Analysis'],
-      link: 'https://github.com/thalyta-marques/amazon-deforestation-analysis',
+      technologies: ['Python', 'Pandas', 'Data Visualization', 'Statistical Analysis', 'Matplotlib', "Seaborn"],
+      link: 'https://htmlpreview.github.io/?https://github.com/Thalyta99/AmazonOnFire/blob/main/Amazon-On-Fire.html',
       icon: 'fa-tree'
     },
     {
       title: 'AdventureWorks Database Analysis',
       description: 'Business intelligence project analyzing the AdventureWorks database using Power BI. Created interactive dashboards to visualize sales performance, customer behavior, and product trends for data-driven decision making.',
       technologies: ['Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
-      link: 'https://github.com/thalyta-marques/adventureworks-powerbi',
+      link: 'https://github.com/Thalyta99/HR-Business-Analysis',
       icon: 'fa-chart-line'
     },
     {
       title: 'Super Store Sales Analysis',
       description: 'Advanced Excel project analyzing retail sales data for a Super Store. Utilized Pivot Tables, Power Query, and advanced formulas to uncover insights about sales trends, customer segments, and product performance.',
       technologies: ['Excel', 'Pivot Tables', 'Power Query', 'Data Analysis'],
-      link: '#',
+      link: 'https://drive.google.com/file/d/1BSVd43xgD2bCPjhtc_qEoaY0CW-mqjc5/view?usp=sharing&usp=embed_facebook',
       icon: 'fa-store'
     }
   ]
