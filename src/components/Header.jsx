@@ -38,6 +38,7 @@ function Header() {
           <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>
             <li><a href="#about" onClick={() => scrollToSection('about')}>About</a></li>
             <li><a href="#cv" onClick={() => scrollToSection('cv')}>CV</a></li>
+            <li><a href="#projects" onClick={() => scrollToSection('projects')}>Projects</a></li>
             <li><a href="#skills" onClick={() => scrollToSection('skills')}>Skills</a></li>
             <li><a href="#contact" onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>
