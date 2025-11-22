@@ -6,16 +6,23 @@ function Projects() {
     {
       title: 'Amazon Forest Deforestation Analysis',
       description: 'Comprehensive data analysis project examining deforestation patterns in the Amazon rainforest using Python and Pandas. Analyzed historical data to identify trends, patterns, and key factors contributing to deforestation.',
-      technologies: ['Python', 'Pandas', 'Data Visualization', 'Statistical Analysis', 'Matplotlib', "Seaborn"],
+      technologies: ['Python', 'Pandas', 'Data Visualization', 'Statistical Analysis', 'Matplotlib', 'Seaborn'],
       link: 'https://htmlpreview.github.io/?https://github.com/Thalyta99/AmazonOnFire/blob/main/Amazon-On-Fire.html',
       icon: 'fa-tree'
     },
     {
       title: 'AdventureWorks Database Analysis',
       description: 'Business intelligence project analyzing the AdventureWorks database using Power BI. Created interactive dashboards to visualize sales performance, customer behavior, and product trends for data-driven decision making.',
-      technologies: ['Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
+      technologies: ['Microsoft Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
       link: 'https://github.com/Thalyta99/HR-Business-Analysis',
       icon: 'fa-chart-line'
+    },
+    {
+      title: 'Mind And Health Trends',
+      description: 'Power BI dashboard analyzing mental health trends and patterns. Visualized key metrics and insights to understand health-related behaviors and their impact on mental well-being through interactive data storytelling.',
+      technologies: ['Microsoft Power BI', 'Data Visualization', 'Health Analytics', 'Dashboard Design'],
+      link: 'https://drive.google.com/file/d/1ggsUBvCEE_Ri8ZY6mirjbsBTH5qxE34w/view',
+      icon: 'fa-brain'
     },
     {
       title: 'Super Store Sales Analysis',
