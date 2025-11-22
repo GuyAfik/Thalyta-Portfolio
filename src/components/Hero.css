@@ -67,23 +67,49 @@
   min-width: 150px;
 }
 
+.hero-buttons .btn:focus {
+  outline: none;
+}
+
+.hero-buttons .btn:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.5);
+  outline-offset: 2px;
+}
+
 .hero-buttons .btn-primary {
-  background: white;
-  color: var(--primary-color);
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
 }
 
 .hero-buttons .btn-primary:hover {
-  background: var(--bg-light);
+  background: white;
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero-buttons .btn-primary:active {
+  transform: translateY(0);
 }
 
 .hero-buttons .btn-secondary {
-  border-color: white;
+  border: 2px solid white;
   color: white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
 }
 
 .hero-buttons .btn-secondary:hover {
   background: white;
   color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.hero-buttons .btn-secondary:active {
+  transform: translateY(0);
 }
 
 @media (max-width: 768px) {
