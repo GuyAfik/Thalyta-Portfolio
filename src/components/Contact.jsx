@@ -4,11 +4,11 @@ import './Contact.css'
 function Contact() {
   // Placeholder contact information - can be updated later
   const contactInfo = {
-    email: 'thalyta.marques@example.com',
-    phone: '+55 (11) 98765-4321',
-    whatsapp: '5511987654321', // Format: country code + number without spaces
-    linkedin: 'https://www.linkedin.com/in/thalyta-marques',
-    location: 'São Paulo, Brazil'
+    email: 'thalytasa@gmail.com',
+    phone: '+972 586665191',
+    whatsapp: '972586665191', // Format: country code + number without spaces
+    linkedin: 'https://www.linkedin.com/in/thalyta-marques-dos-santos-b91591378/',
+    location: 'Netanya, Israel'
   }
 
   return (
