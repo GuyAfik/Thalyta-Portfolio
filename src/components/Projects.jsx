@@ -11,25 +11,25 @@ function Projects() {
       icon: 'fa-tree'
     },
     {
+      title: 'Super Store Sales Analysis',
+      description: 'Advanced Excel project analyzing retail sales data for a Super Store. Utilized Pivot Tables, Power Query, and advanced formulas to uncover insights about sales trends, customer segments, and product performance.',
+      technologies: ['Excel', 'Pivot Tables', 'Power Query', 'Data Analysis'],
+      link: 'https://drive.google.com/file/d/1BSVd43xgD2bCPjhtc_qEoaY0CW-mqjc5/view?usp=sharing&usp=embed_facebook',
+      icon: 'fa-store'
+    },
+    {
       title: 'AdventureWorks Database Analysis',
       description: 'Business intelligence project analyzing the AdventureWorks database using Power BI. Created interactive dashboards to visualize sales performance, customer behavior, and product trends for data-driven decision making.',
-      technologies: ['Microsoft Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
+      technologies: ['Power BI', 'SQL', 'Data Modeling', 'Dashboard Design'],
       link: 'https://github.com/Thalyta99/HR-Business-Analysis',
       icon: 'fa-chart-line'
     },
     {
       title: 'Mind And Health Trends',
       description: 'Power BI dashboard analyzing mental health trends and patterns. Visualized key metrics and insights to understand health-related behaviors and their impact on mental well-being through interactive data storytelling.',
-      technologies: ['Microsoft Power BI', 'Data Visualization', 'Health Analytics', 'Dashboard Design'],
-      link: 'https://drive.google.com/file/d/1ggsUBvCEE_Ri8ZY6mirjbsBTH5qxE34w/view',
+      technologies: ['Power BI', 'Data Visualization', 'Health Analytics', 'Dashboard Design'],
+      link: 'https://github.com/Thalyta99/Mind-And-Health-Trends',
       icon: 'fa-brain'
-    },
-    {
-      title: 'Super Store Sales Analysis',
-      description: 'Advanced Excel project analyzing retail sales data for a Super Store. Utilized Pivot Tables, Power Query, and advanced formulas to uncover insights about sales trends, customer segments, and product performance.',
-      technologies: ['Excel', 'Pivot Tables', 'Power Query', 'Data Analysis'],
-      link: 'https://drive.google.com/file/d/1BSVd43xgD2bCPjhtc_qEoaY0CW-mqjc5/view?usp=sharing&usp=embed_facebook',
-      icon: 'fa-store'
     }
   ]
 
