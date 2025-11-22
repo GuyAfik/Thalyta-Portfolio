@@ -20,17 +20,23 @@ function Hero() {
             visualization, and strategic thinking.
           </p>
           <div className="hero-buttons">
-            <button 
-              onClick={() => scrollToSection('contact')} 
+            <button
+              onClick={() => scrollToSection('projects')}
               className="btn btn-primary"
             >
-              Get In Touch
+              View Projects
             </button>
-            <button 
-              onClick={() => scrollToSection('cv')} 
+            <button
+              onClick={() => scrollToSection('cv')}
               className="btn btn-secondary"
             >
               View CV
+            </button>
+            <button
+              onClick={() => scrollToSection('contact')}
+              className="btn btn-secondary"
+            >
+              Get In Touch
             </button>
           </div>
         </div>
