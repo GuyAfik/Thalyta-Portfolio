@@ -1,0 +1,130 @@
+.contact {
+  padding: 5rem 0;
+  background: var(--bg-light);
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--text-light);
+  margin-bottom: 3rem;
+  line-height: 1.8;
+}
+
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: var(--shadow-md);
+}
+
+.contact-item i {
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  margin-top: 0.25rem;
+}
+
+.contact-item h4 {
+  font-size: 1rem;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.contact-item p {
+  color: var(--text-light);
+  font-size: 0.95rem;
+}
+
+.contact-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md);
+  min-width: 160px;
+  justify-content: center;
+}
+
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+}
+
+.contact-btn i {
+  font-size: 1.25rem;
+}
+
+.contact-btn.gmail {
+  background: #EA4335;
+  color: white;
+}
+
+.contact-btn.gmail:hover {
+  background: #d33426;
+}
+
+.contact-btn.whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+.contact-btn.whatsapp:hover {
+  background: #1fb855;
+}
+
+.contact-btn.linkedin {
+  background: #0A66C2;
+  color: white;
+}
+
+.contact-btn.linkedin:hover {
+  background: #084d94;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 3rem 0;
+  }
+
+  .contact-info {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-btn {
+    width: 100%;
+    max-width: 300px;
+  }
+}

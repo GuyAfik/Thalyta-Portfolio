@@ -1,0 +1,46 @@
+import React from 'react'
+import './Footer.css'
+
+function Footer() {
+  const currentYear = new Date().getFullYear()
+  
+  const contactInfo = {
+    email: 'thalyta.marques@example.com',
+    linkedin: 'https://www.linkedin.com/in/thalyta-marques',
+    github: 'https://github.com/thalyta-marques'
+  }
+
+  return (
+    <footer className="footer">
+      <div className="container">
+        <p>&copy; {currentYear} Thalyta Marques Dos Santos. All rights reserved.</p>
+        <div className="social-links">
+          <a 
+            href={contactInfo.linkedin} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+          <a 
+            href={contactInfo.github} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="GitHub"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+          <a 
+            href={`mailto:${contactInfo.email}`}
+            aria-label="Email"
+          >
+            <i className="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+  )
+}
+
+export default Footer
