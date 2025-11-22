@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "Portfolio website for Thalyta Marques Dos Santos - Data Analyst",
   "main": "index.js",
+  "homepage": "https://guyafik.github.io/Thalyta-Portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "keywords": ["portfolio", "data-analyst", "react"],
+  "keywords": [
+    "portfolio",
+    "data-analyst",
+    "react"
+  ],
   "author": "Thalyta Marques Dos Santos",
   "license": "MIT",
   "dependencies": {
@@ -17,6 +24,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
     "vite": "^5.0.8"
   }
 }
