@@ -7,7 +7,7 @@ function Contact() {
     email: 'thalytasa@gmail.com',
     phone: '058-6665191',
     whatsapp: '9720586665191', // Format: 972 (Israel) + 058-6665191 without leading 0
-    linkedin: 'https://www.linkedin.com/in/thalyta-marques',
+    linkedin: 'https://www.linkedin.com/in/thalyta-marques-dos-santos-b91591378/',
     location: 'Israel'
   }
 
