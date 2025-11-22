@@ -1,6 +1,6 @@
 .skills {
   padding: 5rem 0;
-  background: var(--bg-light);
+  background: var(--bg-white);
 }
 
 .skills-grid {
@@ -17,6 +17,7 @@
   box-shadow: var(--shadow-md);
   transition: all 0.3s ease;
   text-align: center;
+  border: 1px solid var(--border-color);
 }
 
 .skill-card:hover {

@@ -1,6 +1,6 @@
 .cv-section {
   padding: 5rem 0;
-  background: var(--bg-white);
+  background: var(--bg-light);
 }
 
 .cv-content {
@@ -210,8 +210,9 @@
 .cv-download {
   text-align: center;
   padding: 2rem;
-  background: var(--bg-light);
+  background: white;
   border-radius: 12px;
+  border: 1px solid var(--border-color);
 }
 
 .cv-download-note {

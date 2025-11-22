@@ -2,8 +2,8 @@ import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
-import Skills from './components/Skills'
 import CV from './components/CV'
+import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Skills />
       <CV />
+      <Skills />
       <Contact />
       <Footer />
     </div>
