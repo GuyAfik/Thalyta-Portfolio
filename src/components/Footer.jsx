@@ -5,7 +5,7 @@ function Footer() {
   const currentYear = new Date().getFullYear()
   
   const contactInfo = {
-    email: 'thalyta.marques@example.com',
+    email: 'thalytasa@gmail.com',
     linkedin: 'https://www.linkedin.com/in/thalyta-marques',
     github: 'https://github.com/thalyta-marques'
   }

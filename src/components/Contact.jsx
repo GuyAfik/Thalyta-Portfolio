@@ -2,13 +2,13 @@ import React from 'react'
 import './Contact.css'
 
 function Contact() {
-  // Placeholder contact information - can be updated later
+  // Thalyta's actual contact information
   const contactInfo = {
     email: 'thalytasa@gmail.com',
-    phone: '+972 586665191',
-    whatsapp: '972586665191', // Format: country code + number without spaces
-    linkedin: 'https://www.linkedin.com/in/thalyta-marques-dos-santos-b91591378/',
-    location: 'Netanya, Israel'
+    phone: '058-6665191',
+    whatsapp: '9720586665191', // Format: 972 (Israel) + 058-6665191 without leading 0
+    linkedin: 'https://www.linkedin.com/in/thalyta-marques',
+    location: 'Israel'
   }
 
   return (
