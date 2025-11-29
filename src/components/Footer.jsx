@@ -6,8 +6,8 @@ function Footer() {
   
   const contactInfo = {
     email: 'thalytasa@gmail.com',
-    linkedin: 'https://www.linkedin.com/in/thalyta-marques',
-    github: 'https://github.com/thalyta-marques'
+    linkedin: 'https://www.linkedin.com/in/thalyta-marques-dos-santos-b91591378/',
+    github: 'https://github.com/Thalyta99'
   }
 
   return (
